@@ -1,0 +1,52 @@
+:root {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 110;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+  
+  }
+  
+  body {
+    padding: 5px; 
+  }
+
+  div {
+    justify-content: center; 
+  }
+
+  label {
+    color: black;
+  }
+  
+  h1 {
+   
+    display: flex;
+    font-size: 3.2em;
+    line-height: 1.1;
+    color:  #ffffff;
+    text-align: center;
+  }
+
+  img {
+    width: 250px;
+    height: 250px;
+    display:block;
+    margin:auto;
+  }
+
+  button {
+    margin-left: 10px;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #ffffff;
+    }
+  
+  }
+  
